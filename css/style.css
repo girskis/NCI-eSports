@@ -1,0 +1,277 @@
+@font-face{
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 400;
+	src: local('Roboto Regular'),
+	local('Roboto-Regular'), 
+	url(http://themes.googleusercontent.com/static/fonts/roboto/v11/2UX7WLTfW3W8TclTUvlFyQ.woff) 
+	format('woff');
+}
+
+.btn_link{
+	color: white;
+	text-decoration: none;
+}
+
+#games{
+  margin-top:20px;
+  color:#ffffff;
+  text-decoration: none;
+}
+
+#games .game{
+  float:left;
+  text-align: center;
+  width:30%;
+  padding:10px;
+}
+
+#games .game img{
+  width:90px;
+}
+
+#games2{
+	text-decoration: none;
+  margin-top:20px;
+  color:#ffffff;
+  padding-top: 50px;
+}
+
+#games2 .game{
+  float:left;
+  text-align: center;
+  width:30%;
+  padding:10px;
+}
+
+#games2 .game img{
+  width:90px;
+}
+
+#banner{
+  background:url('../img/banner.jpg') no-repeat -200px 0px;
+  color:#ffffff;
+  text-align:center;
+  min-height:400px;
+}
+
+#banner h1{
+  font-size:55px;
+  margin-top:130px;
+  margin-bottom:10px;
+}
+
+#banner p{
+  font-size:20px;
+}
+
+#banner2{
+  background:url('../img/reg_img.png') no-repeat 0 -700px;
+  color:#ffffff;
+  text-align:center;
+  min-height:400px;
+}
+
+#banner2 h1{
+  font-size:55px;
+  margin-top:130px;
+  margin-bottom:10px;
+}
+
+#banner2 p{
+  font-size:20px;
+}
+
+#banner3{
+  background:url('../img/csgo.png') no-repeat 0 -350px;
+  color:#ffffff;
+  text-align:center;
+  min-height:400px;
+}
+
+#banner3 h1{
+  font-size:55px;
+  margin-top:130px;
+  margin-bottom:10px;
+}
+
+#banner3 p{
+  font-size:20px;
+}
+
+#banner4{
+  background:url('../img/lol_ban.png') no-repeat 0 -350px;
+  color:#ffffff;
+  text-align:center;
+  min-height:400px;
+}
+
+#banner4 h1{
+  font-size:55px;
+  margin-top:130px;
+  margin-bottom:10px;
+}
+
+#banner4 p{
+  font-size:20px;
+}
+
+body{
+	font-family: Roboto;  
+	padding: 0;
+	margin: 0;
+	background: #485563;
+}
+
+.box{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.title {
+	
+width: 30%;
+margin: 50px auto 0px;
+color: white;
+background: #5F9EA0;
+text-align: center;
+border:1px solid #B0C4DE;
+border-bottom: none;
+border-radius: 10px 10px 0px 0px;
+padding:20px;	
+}
+
+.login_box{
+	color: #ffffff;
+	float: left;
+	padding: 10px;
+	padding-top: 4px;
+	padding-bottom: 30px;
+}
+
+header{
+	background: #29323c;
+	min-height: 70px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-bottom: #6190E8 1px solid;
+}
+
+header nav{
+	float: right;
+	margin-top: 10px;
+}
+
+header a{
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+header li{
+	float: left;
+	display: inline;
+	padding: 10px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+
+header #logo{
+	float: left;
+}
+
+footer{
+	border-top: #6190E8 1px solid;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 5px;
+	background-color: #29323c;
+	text-align: center;
+}
+
+/* INPUT GROUP*/
+.title{
+	background-color: #29323c;
+	border: 1px solid #6190E8;
+}
+
+.input-group{
+	margin: 10px 0px 10px 0px;
+	margin-top: 26px;
+}
+.input-group label{
+	display: block;
+	text-align: left;
+	margin:3 px;
+}
+.input-group input{
+	height: 30px;
+	width: 95%;
+	padding: 5px 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid #6190E8;
+}
+.btn {
+	padding: 10px;
+	font-size: 19px;
+	color: white;
+	background: #29323c;
+	border: none;
+	border-radius: 5px;
+}
+form {
+
+	width: 30%;
+	margin: 0px auto ;
+	padding: 20px;
+	border: 1px solid #6190E8;
+	background-color: white;
+	border-radius: 0px 0px 10px 10px;
+	
+	
+}
+.block {
+     background-color: blue;
+     width: 150px;
+     height: 70px;
+     margin: 10px;
+  }
+
+.content {
+	height:5px;
+	width: 220px;
+	position : center;
+	margin: 0px auto ;
+	padding: 15px;
+}
+
+.error {
+  width: 92%; 
+  margin: 0px auto; 
+  padding: 10px; 
+  border: 1px solid #a94442; 
+  color: #a94442; 
+  background: #f2dede; 
+  border-radius: 5px; 
+  text-align: left;
+}
+.success {
+position : right;
+  color: #3c763d; 
+  background: #dff0d8; 
+  border: 1px solid #3c763d;
+  margin-bottom: 20px;
+}
+
+form {
+	width: 30%;
+	margin: 0px auto ;
+	padding: 20px;
+	border: 1px solid #B0C4DE;
+	background-color: white;
+	border-radius: 0px 0px 10px 10px;
+}
